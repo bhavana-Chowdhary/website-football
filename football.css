@@ -1,0 +1,305 @@
+
+
+/* body */
+body {
+    background-image: url(./Images/fbImage2.jpg);
+    background-size: cover;
+}
+.main_sec{
+    background-color: aliceblue;
+    margin: 0 2%;
+    padding: 2% 10px;
+} 
+/* head section starts here */
+.header_1{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    margin: 0% 3%;
+    padding: 0px 20px;
+}
+.logo {
+    color: white;
+    font-size: 6vh;
+    font-weight: bolder;
+}
+.navs {
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.navs a {
+    text-decoration: none;
+    color: white;
+} 
+/* head decoration ends here */
+/* first baner decoration start here */
+.first_banr{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.first_banr img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.first_banr1 div{
+    position: absolute;  
+    display: grid;
+    grid-template-columns: 50% 30%;
+}
+.first_banr1 h1{
+    font-size: 10vh;
+    margin-top: -30%;
+    color: orangered;
+    font-weight: bolder;
+    /* background-color: rgba(148, 148, 234, 0.692); */
+}
+.first_banr1 p{
+    margin-bottom: 50%;
+    margin-top: -40%;
+    color: white;
+    padding-left: 10px;
+}
+.fbnr_list{
+    margin:10%;
+    background-color: black;
+   
+}
+.fbnr_list h3{
+    border: 1px solid white; 
+    padding: 10px;
+    background-color: orange;
+}
+.fbnr_list li{
+    border-bottom: 1px dashed;
+    color: aliceblue;
+    padding: 7px;
+}
+.fbnr_list ul{
+ background-color: black;
+}
+.fbnr_list a{
+    color: orangered;
+    margin-left: 20%;
+    padding: 10px;
+}
+/* videos decaration start here */
+.video_dec{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.video_dec1 {
+    display: flex;
+}
+.video_dec hr{
+    padding: 3px;
+    background-color: black;
+    border: none;
+}
+.video_dec h1{
+    font-size: 6vh;
+}
+.video_dec a{
+    margin-left: 40%;
+    color: orangered;
+    font-size: 4vh;
+}
+.vbnr_list{
+    margin:10%;
+    background-color: black;
+   
+}
+.vbnr_list h3{
+    border: 1px solid white; 
+    padding: 10px;
+    background-color: orange;
+}
+.vbnr_list li{
+    border-bottom: 1px dashed;
+    /* background-color: black; */
+    color: aliceblue;
+    padding: 7px;
+}
+.vbnr_list ul{
+ background-color: black;
+}
+.vbnr_list a{
+    color: orangered;
+    margin-left: 40%;
+    font-size: 2vh ;
+}
+/* last decoratin start here */
+.last_dec{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    
+}
+.last_dec a{
+    margin-left: 50%;
+    color: orangered;
+    font-size: 3vh;
+}
+.last_dec hr{
+    padding: 3px;
+    background-color: black;
+    border: none;
+}
+.last_dec h1{
+    font-size: 6vh;
+}
+.last_dec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lbnr_list{
+    margin:10%;
+    background-color: black;
+   
+}
+.lbnr_list h3{
+    border: 1px solid white; 
+    padding: 10px;
+    background-color: orange;
+}
+.lbnr_list li{
+    border-bottom: 1px dashed;
+    /* background-color: black; */
+    color: aliceblue;
+    padding: 7px;
+}
+.lbnr_list ul{
+ background-color: black;
+}
+.lbnr_list a{
+    color: orangered;
+    margin-left: 20%;
+    font-size: 2vh;
+    
+}
+/* footer decoration start here */
+footer{
+    background-color: black;
+    color: aquamarine;
+    padding: 10px;
+    margin: 1% 3%;
+}
+footer a{
+    padding: 10px;
+    color: aquamarine;
+}
+footer a:hover{
+    color: orangered;
+}
+footer span{
+    margin-left: 40%;
+    font-size: 3vh;
+}
+/* globle decoration */
+figcaption{
+    /* border: 1px solid; */
+    margin: 1%;
+    text-align: left;
+}
+figcaption h4{
+    color: blueviolet;
+}
+.video_dec1 figcaption{
+    background-color: black;
+    color: aliceblue;
+}
+.last_dec figcaption{
+    border: 1px solid rebeccapurple;
+    text-align: center;
+}
+.last_dec img{
+    padding: 10px;
+    
+}
+
+/* About page decotration start here */
+#About h4{
+    color: rgb(59, 22, 205);
+    font-size: 3vh;
+}
+#About p{
+    padding-left: 10%;
+}
+#About{
+    border: 5px solid black;
+}
+#About h1{
+    color: orangered;
+    font-size: 5vh;
+    background-color: black;
+    margin-top: -1px;
+    padding: 10px;
+}
+#About i{
+    margin: 10px;
+}
+#About hr{
+    padding: 3px;
+    background-color: black;
+    border: none;
+}
+/* team page decoration start here */
+.TeamPlayer{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    text-align: center;
+}
+.TeamPlayer span{
+    margin: 5%;
+}
+.TeamPlayer img{
+    width: 50%;
+    height: 200px;
+    border: 5px solid black;
+}
+.TeamPlayer h6{
+    color: steelblue;
+    font-size: 3vh;
+    margin-top: -1px;
+}
+/* discroption decoration sratr here */
+.dis_dec input{
+ margin: 1%;
+}
+.dis_dec{
+    margin: 5%;
+}
+/* player page decoration start here */
+.player{
+    display: flex;
+}
+.player img{
+    width: 50%;
+}
+/* videos page decoration start here */
+.firstVideos video{
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+}
+/* schedule page decoraton start here */
+.Schedule{
+    display: grid;
+    grid-template-columns: 30% 80%;
+}
+.Schedule img{
+    height: 200px;
+    margin: 0 10%;
+    border: 3px solid;
+}
+.Schedule div{
+    margin: 0% 10%;
+}
+.Schedule a{
+    color: orangered;
+    margin-left: 70%;
+   margin-top: 80%;
+}
